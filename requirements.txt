@@ -3,6 +3,8 @@ numpy
 Streamlit 
 plotly
 folium
+matplotlib
+mapclassify
 osmnx
 streamlit_folium
 openpyxl
