@@ -6,4 +6,3 @@ folium
 ast
 osmnx
 streamlit_folium
-geopandas
