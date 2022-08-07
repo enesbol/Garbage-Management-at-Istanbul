@@ -37,7 +37,7 @@ st.dataframe(df,700,170)
 st.title("2- 2021 Population Data")
 st.markdown("I get the 2021 population data for calculating the ton of garbage per people and using it for clustering.")
 
-df = pd.read_excel("2021 Nüfus İlçelere Göre.xlsx")
+df = pd.read_excel("2021 Nüfus İlçelere Göre.xlsx", engine = 'openpyxl')
 
 #Display code
 code ='''
