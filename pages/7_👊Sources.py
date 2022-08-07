@@ -16,7 +16,7 @@ st.markdown("https://dzone.com/articles/kmeans-silhouette-score-explained-with-p
 st.markdown("https://plotly.com/python-api-reference/generated/plotly.express.line.html")
 st.markdown("https://plotly.com/python/figure-labels/")
 st.markdown("https://python-visualization.github.io/folium/quickstart.html")
-st.markdown("https://github.com/randyzwitch/streamlit-folium"),
+st.markdown("https://github.com/randyzwitch/streamlit-folium")
 st.markdown("https://github.com/python-visualization/folium/blob/main/examples/MarkerCluster.ipynb")
 st.markdown("https://www.datasciencearth.com/folium-ile-harita-gorsellestirme/"),
 st.markdown("https://medium.com/geekculture/three-ways-to-plot-choropleth-map-using-python-f53799a3e623")
