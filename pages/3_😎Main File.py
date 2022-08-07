@@ -4,8 +4,7 @@ import pandas as pd
 
 st.set_page_config(layout="centered")
 
-if engine is None:
-    engine = "openpyxl"
+pd.set_option("io.excel.xlsx.reader", "openpyxl")
 
 
 st.title("1- 2021 Garbage Data")
