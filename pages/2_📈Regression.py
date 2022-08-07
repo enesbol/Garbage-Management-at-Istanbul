@@ -32,17 +32,17 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Before Interpolation")
-    st.image('Images\Interpolation\Silivri Before Interpolation.png',caption="Before Interpolation")
-    st.image('Images\Interpolation\catalca_before.png',caption="Before Interpolation")
-    st.image('Images\Interpolation\Şile_before.png',caption="Before Interpolation")
+    st.image('Images/Interpolation/Silivri Before Interpolation.png',caption="Before Interpolation")
+    st.image('Images/Interpolation/catalca_before.png',caption="Before Interpolation")
+    st.image('Images/Interpolation/Şile_before.png',caption="Before Interpolation")
     
 with col2:
     st.subheader("After Interpolation")
-    st.image("Images\Interpolation\Silivri After Interpolation.png",caption="After Interpolation")
+    st.image("Images/Interpolation/Silivri After Interpolation.png",caption="After Interpolation")
     
-    st.image("Images\Interpolation\catalca_after.png",caption="After Interpolation")
+    st.image("Images/Interpolation/catalca_after.png",caption="After Interpolation")
     
-    st.image("Images\Interpolation\Şile_after2.png",caption="After Interpolation")
+    st.image("Images/Interpolation/Şile_after2.png",caption="After Interpolation")
 
 with st.expander("📈 Çatalca"):
     code='''

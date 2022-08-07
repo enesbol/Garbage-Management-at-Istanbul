@@ -16,7 +16,7 @@ st.title("Map Visualizations")
 
 st.markdown("Maps are the most appropriate method to show the results.")
 
-df = pd.read_csv("Datas\KMeans\KMeans Labeled.csv")
+df = pd.read_csv("Datas/KMeans/KMeans Labeled.csv")
 
 
 newlist=['Adalar', 'Arnavutköy', 'Ataşehir', 'Avcılar', 'Bahçelievler', 'Bağcılar', 'Bakırköy', 'Başakşehir', 'Bayrampaşa',
@@ -121,7 +121,7 @@ st.markdown("This map shows waste facilities according to their status.")
 
 import streamlit.components.v1 as components
 
-#st.components.v1.html("Images\Map\shortest_route_map.html", width=None, height=None, scrolling=False)
+#st.components.v1.html("Images/Map/shortest_route_map.html", width=None, height=None, scrolling=False)
 
 st.title("Heatmap")
 
@@ -130,7 +130,7 @@ st.markdown("Second Layer: **Garbage Total**")
 st.markdown("Third Layer: **Total Population**")
 
 
-HtmlFile = open("Images\Map\laye3rheatmapson.html", 'r', encoding='utf-8')
+HtmlFile = open("Images/Map/laye3rheatmapson.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 print(source_code)
 components.html(source_code,height = 600)
@@ -207,14 +207,14 @@ st.title("Some Routes")
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("Dolmabahçe Hizmet Birimi Beşiktaş - Şişli Merkez")
-    HtmlFile = open("Images\Map\shortest_route_map.html", 'r', encoding='utf-8')
+    HtmlFile = open("Images/Map/shortest_route_map.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     print(source_code)
     components.html(source_code,height = 400)
 
 with col2:
     st.markdown("Hekimbaşı Katı Atık Aktama İstasyonu - Ümraniye")
-    HtmlFile = open("Images\Map\ümranieshortest.html", 'r', encoding='utf-8')
+    HtmlFile = open("Images/Map/ümranieshortest.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     print(source_code)
     components.html(source_code,height = 400)
@@ -230,7 +230,7 @@ with col1:
     st.markdown("Algorithm will find the closest node to your start and end origins.")
     st.markdown("Then algorithm will find the shortest path between the two nodes.")
     st.markdown("You may display the route on street level.")
-    st.image("Images\Map\KAD-ÜMR OSMNX.png")
+    st.image("Images/Map/KAD-ÜMR OSMNX.png")
 
 with col2:
     code='''

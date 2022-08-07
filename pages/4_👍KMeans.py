@@ -39,7 +39,7 @@ with st.expander("WCSS"):
 
     st.markdown("To calculate WCSS, you first find the Euclidean distance (see figure below) between a given point and the centroid to which it is assigned. You then iterate this process for all points in the cluster, and then sum the values for the cluster and divide by the number of points.")
 
-    st.image('Images\KMeans\wcss.png')
+    st.image('Images/KMeans/wcss.png')
 
 
 with st.expander("Display the Code"):
@@ -77,11 +77,11 @@ with st.expander("Display the Code"):
     ''' 
     st.code(code, language='python')
 
-st.image("Images\Kmeans\Clusters (1).png")
+st.image("Images/Kmeans/Clusters (1).png")
 
 st.markdown("Shilouette score graph was not good that much to take the value from it. So I used the classic elbow method.")
 
-KMeansLabeled = pd.read_csv("Datas\KMeans\KMeans Labeled.csv")
+KMeansLabeled = pd.read_csv("Datas/KMeans/KMeans Labeled.csv")
 
 
 st.title("First Result")
@@ -141,7 +141,7 @@ st.markdown("When you representing the data with 2 columns its easy to show and 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image('Images\Kmeans\PCA1.png',caption=" 3D->2D ")
+    st.image('Images/Kmeans/PCA1.png',caption=" 3D->2D ")
     
 
     st.image(
@@ -150,7 +150,7 @@ with col1:
         )
 
 with col2:
-    st.image("Images\Kmeans\PCA2.png", caption=" Clusters ")
+    st.image("Images/Kmeans/PCA2.png", caption=" Clusters ")
 
 
 
