@@ -10,7 +10,7 @@ st.title("1- 2021 Garbage Data")
 
 st.markdown("I filtered the data with just district names and 2021 values.")
 
-df = pd.read_excel("ilce-yl-baznda-evsel-atk-miktar.xlsx", engine = “openpyxl”)  
+df = pd.read_excel("ilce-yl-baznda-evsel-atk-miktar.xlsx", engine = 'openpyxl')  
 df=df[['İlçe (Disticts)','2021']]
 
 
