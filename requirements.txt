@@ -1,9 +1,9 @@
 pandas
 numpy
 Streamlit 
-plotly.express as px
+plotly
 folium
-from ast import stmt
+ast
 osmnx
 streamlit_folium
 geopandas
