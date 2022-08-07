@@ -19,7 +19,7 @@ g = sns.PairGrid(griddf)
 g.map(sns.scatterplot);
 '''
     st.code(code, language='python')
-    st.image("Images\Kmeans\grid.png",width=600)
+    st.image("Images/Kmeans/grid.png",width=600)
 
 
 
