@@ -1,4 +1,3 @@
-
 pandas==1.1.3
 numpy
 Streamlit 
@@ -6,5 +5,5 @@ plotly
 folium
 osmnx
 streamlit_folium
-pathlib
 openpyxl
+sklearn
