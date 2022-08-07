@@ -4,7 +4,7 @@ import plotly.express as px
 import json 
 
 #read the data
-df = pd.read_excel("ilce-yl-baznda-evsel-atk-miktar (2).xlsx")
+df = pd.read_excel("ilce-yl-baznda-evsel-atk-miktar (2).xlsx",engine="openpyxl")
 df2 = pd.read_csv("waste_facility.csv")
 df3 = pd.read_csv("ilcekonum.csv")
 jdf = geemap.geojson_to_df('istanbul-districts.json')
