@@ -180,7 +180,7 @@ pca.fit(scaled_data)
 x_pca=pca.transform(scaled_data)
 
 
-fig = px.scatter(KMeansLabeled, y=x_pca[:,1], x=x_pca[:,0], color="k_means_pred",symbol="k_means_pred",hover_name="İlçe",width=1100, height=600)
+fig = px.scatter(KMeansLabeled, y=x_pca[:,1], x=x_pca[:,0], color="k_means_pred",symbol="k_means_pred",hover_name="İlçe",width=1250, height=600)
 fig.update_traces(marker_size=10)
 
 fig.update_layout(xaxis_title='First principle component',
