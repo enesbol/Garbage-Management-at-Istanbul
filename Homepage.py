@@ -7,7 +7,7 @@ import json
 df = pd.read_excel("ilce-yl-baznda-evsel-atk-miktar (2).xlsx",engine="openpyxl")
 df2 = pd.read_csv("waste_facility.csv")
 df3 = pd.read_csv("ilcekonum.csv")
-jdf = geemap.geojson_to_df('istanbul-districts.json')
+#jdf = geemap.geojson_to_df('istanbul-districts.json')
  
 st.title("Abstract")
 
@@ -42,7 +42,7 @@ st.markdown(" **2.2 - From github geojson file of the city** ")
 
 
 st.markdown("This data shows borders of the districts in Istanbul.")
-st.dataframe(jdf,500,150)
+#st.dataframe(jdf,500,150)
 
 st.markdown("***For downloading this data to your desktop:***")
 
