@@ -39,7 +39,7 @@ with st.expander("WCSS"):
 
     st.markdown("To calculate WCSS, you first find the Euclidean distance (see figure below) between a given point and the centroid to which it is assigned. You then iterate this process for all points in the cluster, and then sum the values for the cluster and divide by the number of points.")
 
-    st.image('Images/KMeans/wcss.png')
+    st.image("Images/Kmeans/wcss.png")
 
 
 with st.expander("Display the Code"):
