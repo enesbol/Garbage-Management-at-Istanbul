@@ -3,6 +3,5 @@ numpy
 Streamlit 
 plotly
 folium
-ast
 osmnx
 streamlit_folium
