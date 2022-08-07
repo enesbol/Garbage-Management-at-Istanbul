@@ -1,9 +1,12 @@
 import streamlit as st
 
 
+st.set_page_config(layout="wide", page_icon = "💪")
+
+
 st.sidebar.title("Sources")
 
-st.title("Sources")
+st.title("Some of the sources that I used for this project:")
 
 st.markdown("https://data.ibb.gov.tr/")
 st.markdown("https://www.nufusu.com/ilceleri/istanbul-ilceleri-nufusu")
