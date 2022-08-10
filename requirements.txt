@@ -9,3 +9,7 @@ osmnx
 streamlit_folium
 openpyxl
 sklearn
+google-auth
+google-auth-httplib2
+protobuf
+click==8
