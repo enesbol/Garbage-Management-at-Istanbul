@@ -3,9 +3,6 @@ import streamlit as st
 
 st.set_page_config(layout="wide", page_icon = "💪")
 
-
-st.sidebar.title("Sources")
-
 st.title("Some of the sources that I used for this project:")
 
 st.markdown("1- https://data.ibb.gov.tr/")
