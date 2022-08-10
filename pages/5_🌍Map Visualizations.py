@@ -14,6 +14,8 @@ st.set_page_config(layout="wide", page_icon = "🌍")
 
 st.title("Map Visualizations")
 
+st.markdown("At the right top corner of the maps, you can change the background of the maps and add or subtract the layers of the map. All of the maps are dynamic multi-layered maps.")
+
 st.markdown("Maps are the most appropriate method to show the results.")
 
 df = pd.read_csv("Datas/KMeans/KMeans Labeled.csv")

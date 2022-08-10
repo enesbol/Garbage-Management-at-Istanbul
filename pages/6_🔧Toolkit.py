@@ -30,11 +30,11 @@ with col4:
     
 st.title('Project Key Features')
 
-st.markdown(" **Filling time related data with interpolation** ")
-st.markdown(" **Geospatial data visualizations**")
-st.markdown(" **Gathering data from open source**")
-st.markdown(" **Chorophlet and Heatmap**")
-st.markdown(" **Common data mainpulation operations like drop reindex to_datetime merge, creating new columns**")
+st.markdown(" **Filling time related data with interpolation.** ")
+st.markdown(" **Geospatial data visualizations.**")
+st.markdown(" **Gathering data from open source.**")
+st.markdown(" **Chorophlet and Heatmap visualizations.**")
+st.markdown(" **Common data manipulation operations like drop reindex to_datetime merge, creating new columns.**")
 st.markdown(" **Data visualization with plotly dynamic objects.**")
-st.markdown(" **Deploying maps and plotly objects with streamlit**")
-st.markdown(" **Calculate the distance between 2 locations with haversine formula** ")
+st.markdown(" **Deploying maps and plotly objects with streamlit.**")
+st.markdown(" **Calculate the distance between 2 locations with haversine formula.** ")

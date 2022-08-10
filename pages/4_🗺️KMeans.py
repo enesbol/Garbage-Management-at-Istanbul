@@ -127,7 +127,7 @@ fig.show()
 tab3.code(code, language='python')
 
 
-st.markdown("You may see the clustering results there. But as you see the labels are not seperated that much good. It means you can't see the decomposition areas of the points.")
+st.markdown("You may see the clustering results there. But as you see the labels are not separated that much good. It means you can't see the decomposition areas of the points.")
 
 st.markdown("So I used **PCA** for creating new labels and representing the data according to them.")
 
