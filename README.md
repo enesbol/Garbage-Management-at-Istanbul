@@ -1,4 +1,6 @@
 ﻿# Garbage-Management-at-Istanbul
+ 
+ https://enesbol-garbage-management-at-istanbul-homepage-chvayh.streamlitapp.com/
 
 -Estimation of the amount of garbage that Istanbul will produce in 2022 with XGBRegressor.
 
