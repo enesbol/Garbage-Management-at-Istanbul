@@ -38,3 +38,4 @@ st.markdown(" **Common data manipulation operations like drop reindex to_datetim
 st.markdown(" **Data visualization with plotly dynamic objects.**")
 st.markdown(" **Deploying maps and plotly objects with streamlit.**")
 st.markdown(" **Calculate the distance between 2 locations with haversine formula.** ")
+st.markdown(" **Connecting to Google Sheets API with Service Account and using it for database.** ")
