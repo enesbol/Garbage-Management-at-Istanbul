@@ -142,9 +142,8 @@ components.html(source_code,height = 600)
 st.title("Color Map")
 
 st.markdown("This choropleth is created with Istanbul geojson data and our clusters that were created in KMeans.")
-st.markdown("From 0-3 the priority increases.")
+st.markdown("From 0 to 3 priority increases.")
 st.markdown("The areas colored with red are the most priority ones.")
-
 
 
 tab1, tab2 = st.tabs(["📈 Map", "🗃 Code"])
@@ -201,9 +200,9 @@ folium.LayerControl().add_to(m1)
 '''
 tab2.code(code, language='python')
 
-st.markdown("Blue circles show available waste facilities. Green circles show waste facilities that are under construction.")
-st.markdown("As you can see almost of the facilities have been constructed in 3 and 2 level areas.")
-st.markdown("Therefore, it can be said that the model is accurate.")
+st.markdown("**Blue circles show available waste facilities. Green circles show waste facilities that are under construction.**")
+st.markdown("**As you can see almost of the facilities have been constructed in 3 and 2 level areas.**")
+st.markdown("**Therefore, it can be said that the model is accurate.**")
 
 
 st.title("Some Routes")
