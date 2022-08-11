@@ -10,9 +10,9 @@ import json
 #PATHS WİLL CHANGE TO THE SAME FOLDER DATAS -> REGRESSION 
                                             #-> MAİN FİLE 
 
-df = pd.read_excel("Datas\Homepage\ilce-yl-baznda-evsel-atk-miktar (2).xlsx",engine="openpyxl")
-df2 = pd.read_csv("Datas\Homepage\waste_facility.csv")
-df3 = pd.read_csv("Datas\Homepage\ilcekonum.csv")
+df = pd.read_excel("Datas/Homepage/ilce-yl-baznda-evsel-atk-miktar (2).xlsx",engine="openpyxl")
+df2 = pd.read_csv("Datas/Homepage/waste_facility.csv")
+df3 = pd.read_csv("Datas/Homepage/ilcekonum.csv")
 
 
 
