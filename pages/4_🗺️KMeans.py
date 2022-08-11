@@ -242,4 +242,3 @@ st.plotly_chart(fig)
 
 tab3.code(code, language='python')
 
-

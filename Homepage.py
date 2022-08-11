@@ -3,10 +3,21 @@ import pandas as pd
 import plotly.express as px
 import json 
 
+
+
 #read the data
-df = pd.read_excel("ilce-yl-baznda-evsel-atk-miktar (2).xlsx",engine="openpyxl")
-df2 = pd.read_csv("waste_facility.csv")
-df3 = pd.read_csv("ilcekonum.csv")
+
+#PATHS WİLL CHANGE TO THE SAME FOLDER DATAS -> REGRESSION 
+                                            #-> MAİN FİLE 
+
+df = pd.read_excel("Datas\Homepage\ilce-yl-baznda-evsel-atk-miktar (2).xlsx",engine="openpyxl")
+df2 = pd.read_csv("Datas\Homepage\waste_facility.csv")
+df3 = pd.read_csv("Datas\Homepage\ilcekonum.csv")
+
+
+
+
+
 #jdf = geemap.geojson_to_df('istanbul-districts.json')
  
 st.title("Abstract")

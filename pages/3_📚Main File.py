@@ -11,7 +11,7 @@ st.title("1- 2021 Garbage Data")
 
 st.markdown("I filtered the data with just district names and 2021 values.")
 
-df = pd.read_excel("ilce-yl-baznda-evsel-atk-miktar.xlsx", engine = 'openpyxl')  
+df = pd.read_excel("Datas/Main File/ilce-yl-baznda-evsel-atk-miktar.xlsx", engine = 'openpyxl')  
 df=df[['İlçe (Disticts)','2021']]
 
 
@@ -37,7 +37,7 @@ st.dataframe(df,700,170)
 st.title("2- 2021 Population Data")
 st.markdown("I get the 2021 population data for calculating the ton of garbage per people and using it for clustering.")
 
-df = pd.read_excel("2021 Nüfus İlçelere Göre.xlsx", engine = 'openpyxl')
+df = pd.read_excel("Datas/Main File/2021 Nüfus İlçelere Göre.xlsx", engine = 'openpyxl')
 
 #Display code
 code ='''
@@ -70,7 +70,7 @@ st.code(code, language='python')
 
 st.title("4- Garbage data per capita was produced from these 2 data.")
 
-oransaldfKişiBaşınaÇöp_ton = pd.read_csv("oransaldfKişiBaşınaÇöp_ton.csv")
+oransaldfKişiBaşınaÇöp_ton = pd.read_csv("Datas/Main File/oransaldfKişiBaşınaÇöp_ton.csv")
 code ='''
 oransaldf['KişiBaşınaÇöp'] = oransaldf['ÇöpTon'] / oransaldf['İlçe Nüfusu']
 
@@ -110,14 +110,14 @@ sondf = oransaldf.merge(ilcetemiz, how='left')
     st.code(code, language='python')
 
 
-sondflatlon = pd.read_csv("sondflatlonxxx.csv")
+sondflatlon = pd.read_csv("Datas/Main File/sondflatlonxxx.csv")
 
 st.dataframe(sondflatlon,700,170)
 
 
 st.title("6- Waste facilities location data was read and edited .")
 
-CopTesisleriKonum = pd.read_csv("CopTesisleriKonum.csv")
+CopTesisleriKonum = pd.read_csv("Datas/Main File/CopTesisleriKonum.csv")
 
 
 
@@ -225,7 +225,7 @@ st.markdown("All of the columns get ready for training.")
 
 st.markdown("DataFrame before training: ")
 
-ReadyForKmeans= pd.read_csv("ReadyForKmeans.csv")
+ReadyForKmeans= pd.read_csv("Datas/Main File/ReadyForKmeans.csv")
 
  
 st.dataframe(ReadyForKmeans,900,170)

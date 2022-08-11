@@ -8,7 +8,7 @@ import folium
 st.set_page_config(layout="wide")
 
 
-st.title("Regression for Garbage Data of Istanbul")
+st.title("Regression for Garbage Data of Istanbul") 
 
 st.title("Why I need the 2022 garbage data")
 st.markdown("I need to reach the amount of garbage in 2022 because I want to cluster the districts according to their risk priorities, so I  need the data that will be predicted here. I will use the 2022 value as an independent variable for KMeans Clustering.")
@@ -60,7 +60,7 @@ plt.show()
     st.code(code, language='python') 
 
 
-df= pd.read_csv('IstanbulToplam2022.csv')
+df= pd.read_csv('Datas/Regression/IstanbulToplam2022.csv')
 
 figcop = px.line(df, x="Yıllar", y="Toplam",template="plotly_white",width=1170, height=600,markers=True)
 

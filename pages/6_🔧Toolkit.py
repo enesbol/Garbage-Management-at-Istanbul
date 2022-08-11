@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(layout="wide", page_icon = "💪")
 
 
-st.title('Tools that I used in this project')
+st.title('Some of the tools that I used in this project')
 
 col1, col2, col3, col4 = st.columns(4)
 

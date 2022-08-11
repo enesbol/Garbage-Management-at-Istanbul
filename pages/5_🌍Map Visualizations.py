@@ -16,7 +16,9 @@ st.title("Map Visualizations")
 
 st.markdown("At the right top corner of the maps, you can change the background of the maps and add or subtract the layers of the map. All of the maps are dynamic multi-layered maps.")
 
-st.markdown("Maps are the most appropriate metpages/5_🌍Map Visualizations.pyhod to show the results.")
+st.subheader(" ➡️ For editing layers yourself you should close the sidebar at the left if it didn't close automatically.")
+
+st.markdown("Maps are the most appropriate method to show these results.")
 
 df = pd.read_csv("Datas/KMeans/KMeans Labeled.csv")
 
@@ -57,7 +59,7 @@ folium.Choropleth(
     key_on='feature.properties.name'
     ).add_to(m1)
 
-df = pd.read_csv('waste_facility.csv')
+df = pd.read_csv('Datas/Homepage/waste_facility.csv')
 gdf = gpd.GeoDataFrame(df, geometry = gpd.points_from_xy(df.LONGTITUDE, df.LATITUDE))
 m = folium.Map(location=[41.2,29],zoom_start=9.4, width="%100",height="%100")
 colormap = folium.StepColormap(colors=['green','yellow','orange','blue'] ,#renkler
@@ -95,7 +97,7 @@ st.markdown("That heatmap represents the locations of waste-facilities in Istanb
 import pandas as pd 
 import geopandas as gpd
 import folium
-df = pd.read_csv('waste_facility.csv')
+df = pd.read_csv('Datas/Homepage/waste_facility.csv')
 gdf = gpd.GeoDataFrame(df, geometry = gpd.points_from_xy(df.LONGTITUDE, df.LATITUDE))
 m = folium.Map(location=[41.2,29],zoom_start=9.4, width="%100",height="%100")
 colormap = folium.StepColormap(colors=['green','yellow','orange','red'] ,#renkler

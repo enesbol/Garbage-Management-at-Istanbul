@@ -10,19 +10,17 @@ import os
 
 socket.setdefaulttimeout(15 * 60)
 
-SCOPE = "https://www.googleapis.com/auth/spreadsheets" 
-
+SCOPE = "https://www.googleapis.com/auth/spreadsheets"
 SPREADSHEET_ID="1em4x3cE0R22mCwcNTQxhN4lblhGQkq9O_D48REQ8g1M"
 
 @st.experimental_singleton()
-
 def connect():
     # Create a connection object.
     credentials = service_account.Credentials.from_service_account_info(
         st.secrets["gcp_service_account"],
         scopes=[SCOPE],
-    )    
-    
+    )
+
     # Create a new Http() object for every request
     def build_request(http, *args, **kwargs):
         new_http = google_auth_httplib2.AuthorizedHttp(
@@ -32,20 +30,18 @@ def connect():
 
     authorized_http = google_auth_httplib2.AuthorizedHttp(
         credentials, http=httplib2.Http()
-    )       
+    )
     service = build(
         "sheets",
         "v4",
         requestBuilder=build_request,
         http=authorized_http,
-    )    
-
-    gsheet_connector = service.spreadsheets()       
+    )
+    gsheet_connector = service.spreadsheets()
     return gsheet_connector
 
 
-def collect(gsheet_connector) -> pd.DataFrame:
-    
+def collect(gsheet_connector) -> pd.DataFrame:    
     values = (
         gsheet_connector.values()
         .get(
@@ -54,9 +50,8 @@ def collect(gsheet_connector) -> pd.DataFrame:
         )
         .execute()
     )
-    
 
-    df = pd.DataFrame(values["values"])    
+    df = pd.DataFrame(values["values"])
     df.columns = df.iloc[0]
     df = df[1:]
     return df
