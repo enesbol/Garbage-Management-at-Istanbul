@@ -1,3 +1,4 @@
+from dataclasses import asdict
 from datetime import datetime
 import streamlit as st
 import db
