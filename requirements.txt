@@ -9,15 +9,10 @@ osmnx
 streamlit_folium
 openpyxl
 sklearn
-<<<<<<< HEAD
 google-api-python-client
 google-auth
 google-auth-httplib2
 protobuf
 click==8
-=======
-google-auth
-google-auth-httplib2
-protobuf
-click==8
->>>>>>> 0775fefea42b1cea79b875c9f499fdcf0d092bf1
+
+
