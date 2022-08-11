@@ -210,14 +210,14 @@ st.title("Some Routes")
 
 col1, col2 = st.columns(2)
 with col1:
-    st.markdown("Dolmabahçe Hizmet Birimi Beşiktaş - Şişli Merkez")
+    st.markdown("**Dolmabahçe Hizmet Birimi Beşiktaş - Şişli Merkez**")
     HtmlFile = open("Images/Map/shortest_route_map.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     print(source_code)
     components.html(source_code,height = 400)
 
 with col2:
-    st.markdown("Hekimbaşı Katı Atık Aktama İstasyonu - Ümraniye")
+    st.markdown("**Hekimbaşı Katı Atık Aktama İstasyonu - Ümraniye**")
     HtmlFile = open("Images/Map/ümranieshortest.html", 'r', encoding='utf-8')
     source_code = HtmlFile.read() 
     print(source_code)
