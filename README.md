@@ -14,7 +14,7 @@ management.
 
 -Which locations waste facilities or recycling facilities should be constructed in the future.
 
--Results and the features that I created represented on the layered dynamic maps with the web app.
+-Results and the features that I created are represented on the layered dynamic maps with the web app.
 
 -Connected to Google Sheets API with Service Account and used it as database 
 
