@@ -16,10 +16,12 @@ It has been found that the provinces that will be most affected by the garbage p
 ## Data
 1-Datas From Istanbul Data Portal
 1.1- Garbage mass according to districts
+
 1.2- Locations of the waste facilities
 
 2-Datas From Open Sources
 2.1 - Locations of all district centers in Turkey
+
 2.2 - From github geojson file of the city
 
 For installing this data to your desktop:
