@@ -10,7 +10,8 @@ Project aims to identify priority areas where new garbage facilities, garbage re
 
 ## Conclusion
 According to the results, this number is expected to reach by an increase of 10.7574% to 6.823m in 2022 in Istanbul, where the garbage production in 2021 is 6.161 m tons.
-It has been found that the provinces that will be most affected by the garbage problem will be Şile, Çatalca and Adalar, respectively.
+
+It has been found that the provinces that will be most affected by the garbage problem will be Şile, Çatalca and Adalar respectively.
 
 
 ## Data
