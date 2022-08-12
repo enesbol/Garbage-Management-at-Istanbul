@@ -28,7 +28,9 @@ It has been found that the provinces that will be most affected by the garbage p
 #### 2.2 - From github geojson file of the city ####
 
 For installing this data to your desktop:
+
 cd desktop
+
 git clone https://github.com/ozanyerli/istanbul-districts-geojson
 
 **You can reach all of the datas from the datas folder.**
