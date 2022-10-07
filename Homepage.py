@@ -24,7 +24,7 @@ st.title("Abstract")
 
 st.markdown('<span style="font-family:Century Gothi; font-size:1.5em;">We know that important environmental problems can arise in **Metropols** like Istanbul due to population and many other factors. Pollution and **garbage management** are one of them. **Managing**, **recycling** and using optimally to **producing energy** from that garbage must be inside their visions of the cities like that. </span>', unsafe_allow_html=True)
 
-st.markdown('<span style="font-family:Papyrus; font-size:1.5em;">I decided to determine the new waste facilities where should be constructed. For that, we need data about garbage mass, the population of the people that live in every district of the city, locations of the districts, locations of the waste facilities etc. </span>', unsafe_allow_html=True)
+st.markdown('<span style="font-family:Century Gothi; font-size:1.5em;">I decided to determine the new waste facilities where should be constructed. For that, we need data about garbage mass, the population of the people that live in every district of the city, locations of the districts, locations of the waste facilities etc. </span>', unsafe_allow_html=True)
 
 
 
