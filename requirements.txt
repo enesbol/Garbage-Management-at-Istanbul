@@ -8,7 +8,7 @@ mapclassify
 osmnx
 streamlit_folium
 openpyxl
-sklearn
+scikit-learn
 google-api-python-client
 google-auth
 google-auth-httplib2
